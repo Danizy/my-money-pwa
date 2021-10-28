@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Danizy/my-money-pwa/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/Danizy/my-money-pwa/static/js/main.a6f68b78.chunk.js",
+    "main.js.map": "/Danizy/my-money-pwa/static/js/main.a6f68b78.chunk.js.map",
+    "runtime-main.js": "/Danizy/my-money-pwa/static/js/runtime-main.73cbd62d.js",
+    "runtime-main.js.map": "/Danizy/my-money-pwa/static/js/runtime-main.73cbd62d.js.map",
+    "static/js/2.222744de.chunk.js": "/Danizy/my-money-pwa/static/js/2.222744de.chunk.js",
+    "static/js/2.222744de.chunk.js.map": "/Danizy/my-money-pwa/static/js/2.222744de.chunk.js.map",
+    "static/js/3.7131e9f3.chunk.js": "/Danizy/my-money-pwa/static/js/3.7131e9f3.chunk.js",
+    "static/js/3.7131e9f3.chunk.js.map": "/Danizy/my-money-pwa/static/js/3.7131e9f3.chunk.js.map",
+    "index.html": "/Danizy/my-money-pwa/index.html",
+    "service-worker.js": "/Danizy/my-money-pwa/service-worker.js",
+    "service-worker.js.map": "/Danizy/my-money-pwa/service-worker.js.map",
+    "static/css/main.8c8b27cf.chunk.css.map": "/Danizy/my-money-pwa/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.222744de.chunk.js.LICENSE.txt": "/Danizy/my-money-pwa/static/js/2.222744de.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/Danizy/my-money-pwa/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73cbd62d.js",
+    "static/js/2.222744de.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.a6f68b78.chunk.js"
+  ]
+}
