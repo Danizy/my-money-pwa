@@ -1,12 +1,14 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import InitPage from './pages/InitPage';
+import AppContent from './components/AppContent';
+import { UserContextProvider } from './contexts/UserContext';
 
 function App() {
   return (
     <BrowserRouter basename="my-money-pwa">
-      <InitPage />
-      {/* <Routing /> */}
+      <UserContextProvider>
+        <AppContent />
+      </UserContextProvider>
     </BrowserRouter>
   );
 }
