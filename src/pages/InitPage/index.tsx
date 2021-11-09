@@ -1,13 +1,13 @@
 import React from 'react';
 import Loader from '../../components/Loader';
+import { InitPageWrapper } from './styles';
 
 const InitPage = () => {
   return (
-    <div>
+    <InitPageWrapper>
+      <h1>My money</h1>
       <Loader />
-      <Loader />
-      <Loader />
-    </div>
+    </InitPageWrapper>
   );
 };
 

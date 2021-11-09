@@ -31,11 +31,11 @@ export const StyledLoader = styled.div`
   display: inline-block;
   position: relative;
   width: 160px;
-  height: 160px;
+  height: 66px;
 
   & > div {
     position: absolute;
-    top: 66px;
+    top: 20px;
     width: 26px;
     height: 26px;
     border-radius: 50%;
