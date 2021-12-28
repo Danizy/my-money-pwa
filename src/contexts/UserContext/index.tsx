@@ -14,7 +14,7 @@ export const UserContextProvider: React.FC = ({ children }) => {
   }, []);
 
   return (
-    <UserContext.Provider value={{ isSignedIn: false, isInitialized }}>
+    <UserContext.Provider value={{ isSignedIn: true, isInitialized }}>
       {children}
     </UserContext.Provider>
   );

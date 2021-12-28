@@ -1,6 +1,7 @@
 import React from 'react';
 import { useUserContext } from '../../contexts/UserContext';
 import InitPage from '../../pages/InitPage';
+import BottomBar from '../BottomBar';
 import Routing from '../Routing';
 
 const AppContent = () => {
@@ -8,7 +9,12 @@ const AppContent = () => {
 
   if (!isInitialized) return <InitPage />;
 
-  return <Routing />;
+  return (
+    <div>
+      <Routing />
+      <BottomBar />
+    </div>
+  );
 };
 
 export default AppContent;
