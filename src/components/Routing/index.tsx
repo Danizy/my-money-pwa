@@ -1,3 +1,4 @@
+import ExpensesPage from 'pages/Expenses';
 import React from 'react';
 import { Route, Routes } from 'react-router';
 import { useUserContext } from '../../contexts/UserContext';
@@ -18,6 +19,7 @@ const Routing = () => {
   return (
     <Routes>
       <Route path="categories" element={<CategoriesPage />} />
+      <Route path="expenses" element={<ExpensesPage />} />
       <Route path="*" element={<HomePage />} />
     </Routes>
   );

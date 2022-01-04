@@ -1,6 +1,6 @@
+import CustomNavLink from 'components/atoms/CustomNavLink';
 import React from 'react';
 import {
-  BottomBarButton,
   BottomBarWrapper,
   StyledCategoryIcon,
   StyledMoneyIcon,
@@ -9,14 +9,14 @@ import {
 const BottomBar = () => {
   return (
     <BottomBarWrapper>
-      <BottomBarButton>
+      <CustomNavLink to={'/expenses'}>
         <StyledMoneyIcon />
         <div>element 1</div>
-      </BottomBarButton>
-      <BottomBarButton>
+      </CustomNavLink>
+      <CustomNavLink to="/categories">
         <StyledCategoryIcon />
         <div>element 2</div>
-      </BottomBarButton>
+      </CustomNavLink>
     </BottomBarWrapper>
   );
 };
