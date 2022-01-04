@@ -1,13 +1,18 @@
 import React from 'react';
-import { LinkProps, useMatch, useResolvedPath } from 'react-router-dom';
+import { useMatch, useNavigate, useResolvedPath } from 'react-router-dom';
 import { StyledCustomNavLink } from './styles';
 
-const CustomNavLink: React.FC<LinkProps> = ({ children, to, ...rest }) => {
+interface CustomNavLinkProps {
+  to: string;
+}
+
+const CustomNavLink: React.FC<CustomNavLinkProps> = ({ children, to }) => {
   const resolved = useResolvedPath(to);
   const active = !!useMatch({ path: resolved.pathname });
+  const navigate = useNavigate();
 
   return (
-    <StyledCustomNavLink {...{ to, ...rest, active }}>
+    <StyledCustomNavLink {...{ active }} onClick={() => navigate(to)}>
       {children}
     </StyledCustomNavLink>
   );

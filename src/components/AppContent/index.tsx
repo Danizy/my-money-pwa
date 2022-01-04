@@ -3,6 +3,7 @@ import { useUserContext } from '../../contexts/UserContext';
 import InitPage from '../../pages/InitPage';
 import BottomBar from '../BottomBar';
 import Routing from '../Routing';
+import { AppWrapper, ContentWrapper } from './style';
 
 const AppContent = () => {
   const { isInitialized } = useUserContext();
@@ -10,10 +11,12 @@ const AppContent = () => {
   if (!isInitialized) return <InitPage />;
 
   return (
-    <div>
-      <Routing />
+    <AppWrapper>
+      <ContentWrapper>
+        <Routing />
+      </ContentWrapper>
       <BottomBar />
-    </div>
+    </AppWrapper>
   );
 };
 

@@ -6,8 +6,6 @@ import { Link } from 'react-router-dom';
 export const BottomBarWrapper = styled.div`
   width: 100%;
   height: 100px;
-  position: absolute;
-  bottom: 0px;
   background-color: #333864;
   display: flex;
   align-items: center;

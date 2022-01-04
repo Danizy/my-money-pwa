@@ -1,11 +1,10 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
 export interface CustomNavLinkProps {
   active: boolean;
 }
 
-export const StyledCustomNavLink = styled(Link)<CustomNavLinkProps>`
+export const StyledCustomNavLink = styled.div<CustomNavLinkProps>`
   display: flex;
   flex: 1;
   flex-direction: column;
